@@ -1,6 +1,6 @@
 <?php
 
-namespace tools;
+
 
 class Querie
 {
@@ -24,17 +24,21 @@ class Querie
 
     }
 
-        public function selectMethod($sql)
-    {
-
-    }
-    }
-    }
     public function selectMethod($sql)
  {
+     if(strlen($sql) > 0 || !empty($sql)){
 
+
+    $result = $this->db->prepare($sql);
+    $result->execute();
+    return $result -> fetchAll();
+ }
+ else {
+         return false;
+    }
  }
  public function __destruct()
-{
-    unset($this->db);
+ {
+     unset($this->db);
+ }
 }
