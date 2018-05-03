@@ -1,2 +1,2 @@
-# Dieppe-POO
-WF3 dieppe - POO
+# DieppePOO
+WF3 Dieppe - POO

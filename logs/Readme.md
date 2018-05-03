@@ -1,3 +1,3 @@
-# Repertoire log 
+# Répertoire Logs
 
-Penser a creer un répertoire "logs" a la racine du projet pour permettre l'écriture des logs avec les droits adéquats.
+Penser à créer un répertoire "logs" à la racine du projet pour permettre l'écriture des logs avec les droits adéquats.
